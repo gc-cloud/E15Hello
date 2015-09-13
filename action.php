@@ -1,5 +1,4 @@
-Hi <?php echo htmlspecialchars($_POST['name']); ?>.
-You are <?php echo (int)$_POST['age']; ?> years old.
-
-Hi <?php echo $_POST['name']; ?>.
-You are <?php echo (int)$_POST['age']; ?> years old.
+<?php
+echo '<h1> Hello again '.htmlspecialchars($_POST['name']).'! </h1>
+<h2>You are ' . (int)$_POST['age']. ' years old. </h2>';
+?>

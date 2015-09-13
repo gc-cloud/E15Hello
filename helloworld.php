@@ -2,14 +2,16 @@
 <html>
 <head>
 
-    <title>Hello World</title>
+    <title>Hello World and More</title>
     <meta charset='utf-8'>
 
 </head>
 <body>
 
 <?php
-  echo 'Hello World! <br/>';
+  echo '<h1>Hello World!</h1>';
+  echo '<h2>This is a canonical hello page to test my server.</h2>';
+  echo '<h3> We are also going to do a few basic but more interesting things... </h3>';
 ?>
 
 <?php
